@@ -29,8 +29,8 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      #- name: Run tests
-      #  run: npm run test:ci
+      - name: Run tests
+        run: npm run test:ci
 
       - name: Coveralls
         uses: coverallsapp/github-action@master
